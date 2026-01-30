@@ -28,6 +28,7 @@ class Cliff:
 
         ######### Your code starts here #########
         # calculation from raw sensor value to distance (Step 3.3 of lab)
+        distance = 162908.96 * (raw ** -2.27801) # this is based on our average between turtlebot box and wooden plank
         
         ######### Your code ends here #########
 
